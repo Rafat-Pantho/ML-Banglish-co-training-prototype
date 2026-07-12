@@ -1,3 +1,10 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
 # Python
 __pycache__/
 *.py[cod]
@@ -23,16 +30,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
-.venv/
-venv/
-ENV/
-env/
-.env
-
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb_checkpoints
 
 # IDE and editors
 .vscode/
@@ -48,16 +47,8 @@ env/
 *.sublime-workspace
 
 # OS
-.DS_Store
 Thumbs.db
 .windows-terminal-settings.json
-
-# Unused data files (not read by the notebook)
-# These are alternative datasets that can be used to extend the project
-BanglaSenti.csv
-BanglaSenti_SingleWords.csv
-EnBn_CodeMixed_TwoClass_Sentiment_Balanced_100k.csv
-sen_1k.csv
 
 # Temporary/scratch files
 *.tmp
@@ -73,6 +64,3 @@ sen_1k.csv
 # Report scratch files
 scratch_edit_nb.py
 cells_dump.txt
-
-# Avoid tracking the old broken PDF version
-PMVC_WNM_CoTraining_Report.pdf
