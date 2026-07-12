@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.windows-terminal-settings.json
+
+# Unused data files (not read by the notebook)
+# These are alternative datasets that can be used to extend the project
+BanglaSenti.csv
+BanglaSenti_SingleWords.csv
+EnBn_CodeMixed_TwoClass_Sentiment_Balanced_100k.csv
+sen_1k.csv
+
+# Temporary/scratch files
+*.tmp
+.scratch/
+*.temp
+*.log
+
+# Generated/compiled files
+*.pkl
+*.pickle
+*.joblib
+
+# Report scratch files
+scratch_edit_nb.py
+cells_dump.txt
+
+# Avoid tracking the old broken PDF version
+PMVC_WNM_CoTraining_Report.pdf
